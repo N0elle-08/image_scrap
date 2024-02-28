@@ -1,0 +1,15 @@
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.29.15:8000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Feb/2024 13:41:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Feb/2024 13:41:45] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Feb/2024 13:41:45] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Feb/2024 13:41:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:bad auth : Authentication failed., full error: {'ok': 0, 'errmsg': 'bad auth : Authentication failed.', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:127.0.0.1 - - [28/Feb/2024 13:42:24] "POST /review HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.29.15:8000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Feb/2024 13:47:22] "GET / HTTP/1.1" 200 -
+INFO:root:bad auth : authentication failed, full error: {'ok': 0, 'errmsg': 'bad auth : authentication failed', 'code': 8000, 'codeName': 'AtlasError'}
+INFO:werkzeug:127.0.0.1 - - [28/Feb/2024 13:47:51] "POST /review HTTP/1.1" 200 -
